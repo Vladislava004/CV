@@ -1,14 +1,14 @@
 ## rsschool-cv
 # Vladislava Zaitseva
 ## Contacts
-* Phone: +375(44)5385804
-* Email: vladislava.zaitseva004@gmail.com
-* Telegram: [@vlada_328](https://t.me/vlada_328)
-* GitHab: [Vladislava004](https://github.com/Vladislava004)
+* **Phone:** +375(44)5385804
+* **Email:** vladislava.zaitseva004@gmail.com
+* **Telegram:** [@vlada_328](https://t.me/vlada_328)
+* **GitHab:** [Vladislava004](https://github.com/Vladislava004)
 ## About Me
 I am a 2nd-year student at BSUIR (Belarusian State University of Informatics and Radioelectronics). I am goal-oriented, communicative, and responsible. I want to learn something new and develop in various areas of programming - I don't want to stand still. My goal is to become a highly qualified specialist.
 ## Education
-BSUIR (Belarusian State University of Informatics and Radioelectronics)
+**BSUIR** (Belarusian State University of Informatics and Radioelectronics)
 Faculty of Information Technologies and Management
 Specialty: Automated Information Processing Systems
 2022 - 2026
@@ -19,7 +19,9 @@ Specialty: Automated Information Processing Systems
 * MySql
 * Git
 ## Code Example
-Programming language: C#
+**Programming language:** C#
+
+```
 int number;
 int lower, higher;
 int triesCount = 5;
@@ -58,6 +60,7 @@ if (triesCount < 0)
 {
     Console.WriteLine("Увы, вы проиграли, но повезет в другой раз! это было число " + number + ".");
 }
+```
 ## Languages
-* Russian - native speaker
-* English - B1
+* **Russian** - native speaker
+* **English** - B1
