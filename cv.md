@@ -4,7 +4,7 @@
 * **Phone:** +375(44)5385804
 * **Email:** vladislava.zaitseva004@gmail.com
 * **Telegram:** [@vlada_328](https://t.me/vlada_328)
-* **GitHab:** [Vladislava004](https://github.com/Vladislava004)
+* **GitHub:** [Vladislava004](https://github.com/Vladislava004)
 ## About Me
 I am a 2nd-year student at BSUIR (Belarusian State University of Informatics and Radioelectronics). I am goal-oriented, communicative, and responsible. I want to learn something new and develop in various areas of programming - I don't want to stand still. My goal is to become a highly qualified specialist.
 ## Education
