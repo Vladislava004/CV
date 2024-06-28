@@ -8,9 +8,9 @@
 ## About Me
 I am a 2nd-year student at BSUIR (Belarusian State University of Informatics and Radioelectronics). I am goal-oriented, communicative, and responsible. I want to learn something new and develop in various areas of programming - I don't want to stand still. My goal is to become a highly qualified specialist.
 ## Education
-**BSUIR** (Belarusian State University of Informatics and Radioelectronics)
-Faculty of Information Technologies and Management
-Specialty: Automated Information Processing Systems
+**BSUIR** (Belarusian State University of Informatics and Radioelectronics)\
+Faculty of Information Technologies and Management\
+Specialty: Automated Information Processing Systems\
 2022 - 2026
 ## Skills
 * C++
