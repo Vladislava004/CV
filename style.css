@@ -1,0 +1,124 @@
+body {
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #e3ebe1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img.profile-photo {
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    border: 40px solid #8fbf9f;
+    border-radius: 50%;
+    margin-right: 120px;
+}
+
+.name-container {
+    font-family: 'Cinzel', serif;
+}
+
+header .name, header .surname {
+    display: block;
+    font-size: 5em;
+    margin: 0;
+    color: #333;
+}
+
+header .surname {
+    margin-top: -10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    display: block;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    min-width: 300px;
+}
+
+.left-column {
+    max-width: 600px;
+}
+
+.right-column {
+    max-width: 600px;
+}
+
+section {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.code-example pre {
+    background: #eaeaea;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+}
+
+footer {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 10px;
+    background: #8fbf9f;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+footer p, footer a {
+    margin: 0;
+    color: #000000;
+    text-decoration: none;
+    font-size: 1em;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+footer img {
+    margin-left: 770px;
+    width: 60px;
+    height: auto;
+}
