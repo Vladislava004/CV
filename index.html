@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="flex-header">
+            <img src="photo_cv.jpg" alt="photo" class="profile-photo">
+            <div class="name-container">
+                <span class="name">VLADISLAVA</span>
+                <span class="surname">ZAITSEVA</span>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <main class="flex-container">
+            <div class="left-column">
+                <section id="contacts" class="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><b>Phone:</b> +375(44)5385804</li>
+                        <li><b>Email:</b> <a href="mailto:vladislava.zaitseva004@gmail.com">vladislava.zaitseva004@gmail.com</a></li>
+                        <li><b>Telegram:</b> <a href="https://t.me/vlada_328">@vlada_328</a></li>
+                        <li><b>GitHub:</b> <a href="https://github.com/Vladislava004">Vladislava004</a></li>
+                    </ul>
+                </section>
+
+                <section id="about" class="profile">
+                    <h2>About Me</h2>
+                    <p>I am a 2nd-year student at BSUIR (Belarusian State University of Informatics and Radioelectronics).
+                        I am goal-oriented, communicative, and responsible.
+                        I want to learn something new and develop in various areas of programming - I don't want to stand still. 
+                        My goal is to become a highly qualified specialist.</p>
+                </section>
+
+                <section id="education" class="education">
+                    <h2>Education</h2>
+                    <p><b>BSUIR</b> (Belarusian State University of Informatics and Radioelectronics)</p>
+                    <p>Faculty of Information Technologies and Management</p>
+                    <p>Specialty: Automated Information Processing Systems</p>
+                    <p>2022 - 2026</p>
+                </section>
+
+                <section id="languages" class="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li><b>Russian</b> - native speaker</li>
+                        <li><b>English</b> - B1</li>
+                    </ul>
+                </section>
+
+                <section id="skills" class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>C++</li>
+                        <li>C# (Basic)</li>
+                        <li>HTML, CSS</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section id="code-example" class="code-example">
+                    <h2>Code Example</h2>
+                    <p><b>Programming language:</b> C#</p>
+                    <pre>
+    int number;
+    int lower, higher;
+    int triesCount = 5;
+    int userInput;
+    Random rand = new Random();
+    number = rand.Next(0, 101);
+    lower = rand.Next(number - 10, number);
+    higher = rand.Next(number + 1, number + 10);
+    Console.WriteLine($"Мы загадали число от 0 до 100, оно больше чем {lower}, но меньше чем {higher}.");
+    Console.WriteLine($"Что это за число? У Вас {triesCount} попыток осталось!");
+
+    while (triesCount-- > 0)
+    {
+        Console.Write("Ваш ответ: ");
+        string userInputString = Console.ReadLine();
+        if (int.TryParse(userInputString, out userInput))
+        {
+            if (userInput == number)
+            {
+                Console.WriteLine("Вы правы это было число " + number + ".");
+                break;
+            }
+            else
+            {
+                Console.WriteLine("Неверно! Попробуйте еще раз!");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Пожалуйста, введите число.");
+            triesCount++;
+        }
+    }
+
+    if (triesCount < 0)
+    {
+        Console.WriteLine("Увы, вы проиграли, но повезет в другой раз! это было число " + number + ".");
+                    </pre>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>2024</p>
+            <a href="https://github.com/Vladislava004">Vladislava004</a>
+            <a href="https://rs.school/courses/javascript-preschool-ru"><img src="rs-school-logo.svg" alt="rs-school-logo" class="rs-school-logo"></a>
+        </footer>
+    </div>
+</body>
+</html>
