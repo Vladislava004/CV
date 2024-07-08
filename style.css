@@ -34,7 +34,7 @@ header img.profile-photo {
     font-family: 'Cinzel', serif;
 }
 
-header .name, header .surname {
+header .name {
     display: block;
     font-size: 5em;
     margin: 0;
